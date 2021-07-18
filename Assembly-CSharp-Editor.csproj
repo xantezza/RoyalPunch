@@ -667,9 +667,17 @@
       <Project>{3F6FA66C-9315-245E-98B7-35C75460A84D}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{D1DB9948-6D30-ADC5-10F7-72454EC76463}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Leopotam.Ecs.csproj">
       <Project>{629DB78D-FCB6-4D24-2F30-6AFC422A2B3F}</Project>
       <Name>Leopotam.Ecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Notifications.csproj">
+      <Project>{6FBDAB09-5F0D-65E7-E7AB-67DA3C026CF2}</Project>
+      <Name>Unity.Notifications</Name>
     </ProjectReference>
     <ProjectReference Include="Leopotam.Ecs.UnityIntegration.csproj">
       <Project>{B8876BF7-B48E-1E1C-DB5F-53403F511D30}</Project>
@@ -682,6 +690,10 @@
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{BC3CFF8F-6F7B-DD7D-B716-58DE33AEC547}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mobile.AndroidLogcat.Editor.csproj">
+      <Project>{D4DB6E8A-BEF2-4FAF-FD6C-5EAFB495622D}</Project>
+      <Name>Unity.Mobile.AndroidLogcat.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{37D07533-806E-5061-A537-6A2C8021533D}</Project>
@@ -703,33 +715,21 @@
       <Project>{5C32E897-4C77-9A94-BE20-03B1DB92B267}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{8E1A7D88-FE94-9E6D-259C-AC1981498626}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{0BD650AD-5260-3F86-2C6E-F76B85C332D9}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Notifications.iOS.csproj">
-      <Project>{149354AD-05BD-19FA-A9A5-8F7BF31D0C3F}</Project>
-      <Name>Unity.Notifications.iOS</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mobile.AndroidLogcat.Editor.csproj">
-      <Project>{D4DB6E8A-BEF2-4FAF-FD6C-5EAFB495622D}</Project>
-      <Name>Unity.Mobile.AndroidLogcat.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{D1DB9948-6D30-ADC5-10F7-72454EC76463}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Notifications.csproj">
-      <Project>{6FBDAB09-5F0D-65E7-E7AB-67DA3C026CF2}</Project>
-      <Name>Unity.Notifications</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Notifications.Android.csproj">
       <Project>{7D30E5DD-A5DF-2D13-0C33-D817DDCC896B}</Project>
       <Name>Unity.Notifications.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{8E1A7D88-FE94-9E6D-259C-AC1981498626}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Notifications.iOS.csproj">
+      <Project>{149354AD-05BD-19FA-A9A5-8F7BF31D0C3F}</Project>
+      <Name>Unity.Notifications.iOS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

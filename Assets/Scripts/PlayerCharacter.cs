@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCharacter : Character
+public class PlayerCharacter : AbstractCharacter
 {
     private Transform _thisTransform;
-    public Transform _parentTransform;
-    public VariableJoystick _joystick;
+    [SerializeField] private Transform _parentTransform;
+    [SerializeField] private VariableJoystick _joystick;
 
     private void Awake()
     {
@@ -25,7 +25,10 @@ public class PlayerCharacter : Character
 
     private void Start()
     {
-        _thisTransform = transform;
+        _healthBar.SetMaxHealth(_health);
+
+        _playerTransform = _thisTransform = transform;
+
         _animator = GetComponent<Animator>();
     }
 
@@ -37,7 +40,7 @@ public class PlayerCharacter : Character
 
             MovementControl(input);
 
-            AnimatorControl(this.gameObject, input, _thisTransform.localPosition);
+            AnimatorControl(_animator, input);
         }
     }
 

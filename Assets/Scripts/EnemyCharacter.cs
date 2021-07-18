@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyCharacter : Character
+public class EnemyCharacter : AbstractCharacter
 {
     private Transform _thisTransform;
-    private Transform _playerTransform;
 
     public void OnTriggerEnter(Collider collider)
     {
@@ -20,10 +19,10 @@ public class EnemyCharacter : Character
     private void Start()
     {
         SetRagdollState(this.gameObject, false);
-
         _thisTransform = transform;
-        _playerTransform = FindObjectOfType<PlayerCharacter>().transform;
         _animator = GetComponent<Animator>();
+
+        SetMaxHealth();
     }
 
     private void FixedUpdate()
@@ -32,7 +31,7 @@ public class EnemyCharacter : Character
         {
             _thisTransform.LookAt(_playerTransform);
 
-            AnimatorControl(this.gameObject, new Vector2(0, 0), _playerTransform.localPosition);
+            AnimatorControl(_animator, new Vector2(0, 0));
         }
     }
 }
