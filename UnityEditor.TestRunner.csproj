@@ -110,7 +110,6 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\Api\ITestResultAdaptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\TestRunner\EditModePCHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\TestRunner\Callbacks\WindowResultUpdater.cs" />
-    <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\Api\ExecutionSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\TestRunner\Callbacks\EditModeRunnerCallback.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\RequireApiProfileAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\TestLaunchers\EditModeLauncher.cs" />
@@ -124,6 +123,7 @@
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\UnityTestProtocol\UnityTestProtocolListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\TestLaunchers\PlatformSetup\AndroidPlatformSetup.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\TestRun\TestJobData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\Api\ExecutionSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\GUI\Views\EditModeTestListGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\Api\ITestAdaptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.20\UnityEditor.TestRunner\UnityTestProtocol\TestPlanMessage.cs" />

@@ -58,18 +58,18 @@
   <ItemGroup>
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
-    <Compile Include="Assets\Scripts\AbstractCharacter.cs" />
+    <Compile Include="Assets\prefabs\Healthbar\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Fighter.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\Scripts\EnemyCharacter.cs" />
+    <Compile Include="Assets\Scripts\IEnemySuperAtack.cs" />
+    <Compile Include="Assets\Scripts\GeneralData.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\UI.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
-    <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\prefabs\Healthbar\HealthBar.cs" />
-    <Compile Include="Assets\Scripts\IEnemySuperAtack.cs" />
+    <Compile Include="Assets\Scripts\FighterBot.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
